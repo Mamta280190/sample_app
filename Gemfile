@@ -13,11 +13,13 @@ gem 'therubyracer'
 # in production environments by default.
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails'
 end
 group :test do
-  gem 'rspec', '2.0.1'
-  gem 'webrat', '0.7.1'
+  gem 'rspec'
+  gem 'webrat'
+  gem 'spork'
+
 end
 
 group :assets do
